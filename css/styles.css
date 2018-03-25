@@ -1,0 +1,39 @@
+.home {
+    background-color: burlywood;
+    height:100vh;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about {
+    background-color: aquamarine;
+    height:100vh;
+    min-height:100vh;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+
+
+.skills h1 {
+    text-align: center;
+}
+
+.skills h3 {
+    text-align: center;
+}
+
+.skills img {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+
+.text-center {
+
+}
