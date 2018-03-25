@@ -1,3 +1,20 @@
+body {
+    font-family: Helvetica, sans-serif;
+
+}
+
+html {
+    background-color: burlywood;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100vw;
+    opacity: 0.5;
+}
+
+
+
 .home {
     background-color: burlywood;
     height:100vh;
@@ -10,14 +27,17 @@
 
 .about {
     background-color: aquamarine;
-    height:100vh;
-    min-height:100vh;
+    padding: 50px;
+   
 }
 
 .about h1 {
     text-align: center;
 }
 
+.skills {
+    padding: 50px;
+}
 
 
 .skills h1 {
@@ -36,4 +56,63 @@
 
 .text-center {
 
+}
+
+.projects
+.projects-container img {
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form {
+    width: 500px;
+}
+
+#message {
+    height: 10em;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-links img {
+    height: 50px;
+    width: 50px;
+}
+
+.contact-links span {
+    font-size: 1em;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.col-sm img {
+    height: 300px;
+    width: 300px;
+}
+
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+   margin: 30px;
 }
