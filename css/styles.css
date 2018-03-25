@@ -8,11 +8,15 @@ html {
     
 }
 
+
+
 .nav-bar {
     position: fixed;
     width: 100vw;
     opacity: 0.8;
+    background-color: #162731;
 }
+
 
 
 
