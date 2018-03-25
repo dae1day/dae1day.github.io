@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, sans-serif;
-    background-color: #79B9E1;
+    background-color: #66CCFF;
     color: white;
 }
 
@@ -40,7 +40,7 @@ html {
 }
 
 .skills {
-    background-color: #6FC4F9;
+    background-color: #0099CC;
     padding: 50px;
 }
 
@@ -108,7 +108,7 @@ html {
   }
 
   .text {
-    background-color: #4CAF50;
+    background-color: #003399;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
