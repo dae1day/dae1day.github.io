@@ -25,6 +25,11 @@ h3 {
     background-color: #b2ffff;
 }
 
+.nav-bar img {
+    height: 50px;
+    width: 62px;
+}
+
 /* ~ ~ ~ ~ ~ ~ H O M E  ~ ~ ~ ~ ~ */
 
 .home {
