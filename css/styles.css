@@ -16,6 +16,8 @@ h3 {
     font-weight: bold;
 }
 
+/* ~ ~ ~ ~ ~ ~ N A V  B A R  ~ ~ ~ ~ ~ */
+
 .nav-bar {
     position: fixed;
     width: 100vw;
@@ -23,8 +25,7 @@ h3 {
     background-color: #CCFFCC;
 }
 
-
-
+/* ~ ~ ~ ~ ~ ~ H O M E  ~ ~ ~ ~ ~ */
 
 .home {
     background-image:
@@ -38,6 +39,7 @@ h3 {
     
 }
 
+/* ~ ~ ~ ~ ~ ~ A B O U T  ~ ~ ~ ~ ~ */
 
 .about {
     margin: 50px;
@@ -49,11 +51,13 @@ h3 {
     text-align: center;
 }
 
+
+/* ~ ~ ~ ~ ~ ~ S K I L L S  ~ ~ ~ ~ ~ */
+
 .skills {
     background-color: #0099CC;
     padding: 50px;
 }
-
 
 .skills h1 {
     text-align: center;
@@ -70,6 +74,7 @@ h3 {
 }
 
 
+/* ~ ~ ~ ~ ~ ~ P R O J E C T S  ~ ~ ~ ~ ~ */
 .projects {
     margin: 100px;
     padding: 50px;
@@ -123,6 +128,8 @@ h3 {
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  /* ~ ~ ~ ~ ~ ~ C O N T A C T S  ~ ~ ~ ~ ~ */
   
 form {
     width: 500px;
