@@ -1,185 +1,179 @@
 body {
-    font-family: Raleway, Helvetica, sans-serif;
-    background-color: #66CCFF;
-    color: white;
+  font-family: Raleway, Helvetica, sans-serif;
+  background-color: rgb(193, 231, 250);
+  color: white;
 }
 
 h1 {
-    font-weight: bold;
-    text-decoration: underline;
+  font-weight: bold;
+  text-decoration: underline;
 }
 h2 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* ~ ~ ~ ~ ~ ~ N A V  B A R  ~ ~ ~ ~ ~ */
 
 .nav-bar {
-    position: fixed;
-    width: 100vw;
-    opacity: 0.9;
-    background-color: #b2ffff;
+  position: fixed;
+  width: 100vw;
+  opacity: 0.9;
+  background-color: #b2ffff;
 }
 
 .nav-bar img {
-    height: 50px;
-    width: 62px;
+  height: 50px;
+  width: 62px;
 }
 
 /* ~ ~ ~ ~ ~ ~ H O M E  ~ ~ ~ ~ ~ */
 
 .home {
-    background-image:
-    url("../images/palace-roof.jpg");
+  background-image: url("../images/palace-roof.jpg");
 
-    height:100vh;
-    min-height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ~ ~ ~ ~ ~ ~ A B O U T  ~ ~ ~ ~ ~ */
 
 .about {
-    margin: 50px;
-    padding: 50px;
-   
+  margin: 50px;
+  padding: 50px;
 }
 
 .about h1 {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* ~ ~ ~ ~ ~ ~ S K I L L S  ~ ~ ~ ~ ~ */
 
 .skills {
-    background-color: #0099CC;
-    padding: 50px;
+  background-color: #0099cc;
+  padding: 50px;
 }
 
 .skills h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .skills h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .skills img {
-    height: 100px;
-    width: 100px;
-    margin: 25px;
+  height: 100px;
+  width: 100px;
+  margin: 25px;
 }
-
 
 /* ~ ~ ~ ~ ~ ~ P R O J E C T S  ~ ~ ~ ~ ~ */
 .projects {
-    margin: 100px;
-    padding: 50px;
+  margin: 100px;
+  padding: 50px;
 }
 
 .projects-container img {
-    height: 400px;
-    width: 400px;
-    margin: 30px;
+  height: 400px;
+  width: 400px;
+  margin: 30px;
 }
 
 .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 .image-container {
-    position: relative;
+  position: relative;
 }
 
 .image:hover {
-    opacity: 0.3;
-  }
+  opacity: 0.3;
+}
 
-  .image-container:hover .middle {
-    opacity: 1;
-  }
+.image-container:hover .middle {
+  opacity: 1;
+}
 
-  .text {
-    background-color: #003399;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
+.text {
+  background-color: #003399;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 
-  /* ~ ~ ~ ~ ~ ~ C O N T A C T S  ~ ~ ~ ~ ~ */
-  
+/* ~ ~ ~ ~ ~ ~ C O N T A C T S  ~ ~ ~ ~ ~ */
+
 form {
-    width: 500px;
+  width: 500px;
 }
 
 #message {
-    height: 10em;
+  height: 10em;
 }
 
-
 .contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contact-links img {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .contact-links span {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .contact-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
 }
 
 .col-sm img {
-    height: 320px;
-    width: 480px;
+  height: 320px;
+  width: 480px;
 }
 
 .contact {
-    background-color: #162731;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #162731;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
-   margin: 30px;
+  margin: 30px;
 }
