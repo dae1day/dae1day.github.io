@@ -1,6 +1,6 @@
 body {
   font-family: Raleway, Helvetica, sans-serif;
-  background-color: rgb(193, 231, 250);
+  background-color: rgba(238, 249, 255, 0.8);
   color: white;
 }
 
@@ -17,9 +17,12 @@ h3 {
 
 .nav-bar {
   position: fixed;
+  top: 0;
+  z-index: 1;
   width: 100vw;
-  opacity: 0.9;
-  background-color: #b2ffff;
+  opacity: 1;
+  background-color: white;
+  transition: top 0.3s;
 }
 
 .nav-bar img {
@@ -31,18 +34,22 @@ h3 {
   text-align: right;
 }
 
-/* ~ ~ ~ ~ ~ ~ H O M E  ~ ~ ~ ~ ~ */
+/* ~ ~ ~ ~ ~ ~ H E R O  ~ ~ ~ ~ ~ */
 
-.home {
+.hero {
   background-image: url("../images/palace-roof.jpg");
-
+  background-color: rgba(128, 87, 211, 0.2);
+  background-blend-mode: overlay;
   height: 100vh;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
 }
-.home-text {
+.hero-text {
   font-size: 2em;
 }
 
@@ -53,8 +60,11 @@ h3 {
 /* ~ ~ ~ ~ ~ ~ A B O U T  ~ ~ ~ ~ ~ */
 
 .about {
-  margin: 50px;
+  margin: 50px 0px;
   padding: 50px;
+  background-color: rgba(128, 87, 211, 0.2);
+  border-radius: 20px;
+  box-shadow: -2px 13px 44px -1px #5ac5e0;
 }
 
 .about h1 {
@@ -64,8 +74,10 @@ h3 {
 /* ~ ~ ~ ~ ~ ~ S K I L L S  ~ ~ ~ ~ ~ */
 
 .skills {
-  background-color: #0099cc;
+  background-color: rgba(128, 87, 211, 0.2);
   padding: 50px;
+  border-radius: 20px;
+  box-shadow: -2px 13px 44px -1px #5ac5e0;
 }
 
 .skills h1 {
@@ -86,6 +98,9 @@ h3 {
 .projects {
   margin: 100px;
   padding: 50px;
+  background-color: rgba(128, 87, 211, 0.2);
+  border-radius: 20px;
+  box-shadow: -2px 13px 44px -1px #5ac5e0;
 }
 
 .projects-container img {
@@ -135,6 +150,14 @@ h3 {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+#skills-box {
+  padding-top: 70px;
+}
+
+#download-button {
+  padding: 50px 0px;
 }
 
 /* ~ ~ ~ ~ ~ ~ C O N T A C T S  ~ ~ ~ ~ ~ */
