@@ -17,9 +17,12 @@ h3 {
 
 .nav-bar {
   position: fixed;
+  top: 0;
+  z-index: 1;
   width: 100vw;
-  opacity: 0.9;
-  background-color: #b2ffff;
+  opacity: 1;
+  background-color: white;
+  transition: top 0.3s;
 }
 
 .nav-bar img {
@@ -53,8 +56,9 @@ h3 {
 /* ~ ~ ~ ~ ~ ~ A B O U T  ~ ~ ~ ~ ~ */
 
 .about {
-  margin: 50px;
+  margin: 50px 0px;
   padding: 50px;
+  background-color: #0099cc;
 }
 
 .about h1 {
