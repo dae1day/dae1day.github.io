@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="icons/day-logo.png">
+    <link rel="icon" href="icons/dp-logo.png">
     <title>Day Park Portfolio</title>
     <meta name="Day Park Portfolio" content="Developer Day Park portfolio webpage">
 
@@ -97,16 +97,14 @@
 <body>
     <div class="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#hero"><img src="icons/day-logo.png"></a>
+            <a class="navbar-brand" href="#hero"><img src="icons/dp-logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#hero">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
+                    <a class="nav-item nav-link" href="#hero">Home</a>
                     <a class="nav-item nav-link" href="#about">About Me</a>
                     <a class="nav-item nav-link" href="#skills">Skills</a>
                     <a class="nav-item nav-link" href="#projects">Projects</a>
@@ -116,14 +114,23 @@
         </nav>
     </div>
     <div class="hero" id="hero">
-        <div class="hero-text">
+        <div class="hero-text-box">
             <h2 class="hero-text">
                 Hello, I'm <b class="name">Day Park</b>.
             </h2>
-            <h2 class="hero-text">
-                I'm a Full Stack Developer
+            <h2 class="hero-text">I'm a
+                <div class="slidingVertical">
+                    <span> Full Stack Web Developer</span>
+                    <span> Dance enthusiast.</span>
+                    <span> Retired Black Belt.</span>
+                    <span> Heavyweight Drinker.</span>
+                    <span> Amateur Photographer.</span>
+                    <span> Wanderer.</span>
+                </div>
             </h2>
-            <button type="button" class="btn btn-light"><a href="#about">Read More</a></button>
+        </div>
+        <div class="hero-button">
+            <button type="button" class="btn btn-outline-light"><a href="#about" class="hero-button">Read More</a></button>
         </div>
     </div>
     <div class="container">
