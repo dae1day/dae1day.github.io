@@ -26,8 +26,8 @@ h3 {
 }
 
 .nav-bar img {
-  height: 50px;
-  width: 62px;
+  height: 29px;
+  width: 38px;
 }
 
 .navbar-collapse {
@@ -73,38 +73,38 @@ h2.hero-text {
   text-indent: 8px;
 }
 .slidingVertical span {
-  animation: topToBottom 15s linear infinite 0s;
-  -ms-animation: topToBottom 15s linear infinite 0s;
-  -webkit-animation: topToBottom 15s linear infinite 0s;
+  animation: topToBottom 18s linear infinite 0s;
+  -ms-animation: topToBottom 18s linear infinite 0s;
+  -webkit-animation: topToBottom 18s linear infinite 0s;
   color: rgb(61, 59, 160);
   opacity: 0;
   overflow: hidden;
   position: absolute;
 }
 .slidingVertical span:nth-child(2) {
-  animation-delay: 2.5s;
-  -ms-animation-delay: 2.5s;
-  -webkit-animation-delay: 2.5s;
+  animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
 }
 .slidingVertical span:nth-child(3) {
-  animation-delay: 5s;
-  -ms-animation-delay: 5s;
-  -webkit-animation-delay: 5s;
+  animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  -webkit-animation-delay: 6s;
 }
 .slidingVertical span:nth-child(4) {
-  animation-delay: 7.5s;
-  -ms-animation-delay: 7.5s;
-  -webkit-animation-delay: 7.5s;
+  animation-delay: 9s;
+  -ms-animation-delay: 9s;
+  -webkit-animation-delay: 9s;
 }
 .slidingVertical span:nth-child(5) {
-  animation-delay: 10s;
-  -ms-animation-delay: 10s;
-  -webkit-animation-delay: 10s;
+  animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  -webkit-animation-delay: 12s;
 }
 .slidingVertical span:nth-child(6) {
-  animation-delay: 12.5s;
-  -ms-animation-delay: 12.5s;
-  -webkit-animation-delay: 12.5s;
+  animation-delay: 15s;
+  -ms-animation-delay: 15s;
+  -webkit-animation-delay: 15s;
 }
 
 /*topToBottom Animation*/
