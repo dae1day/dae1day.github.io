@@ -27,7 +27,7 @@ h3 {
 
 .nav-bar img {
   height: 50px;
-  width: 50px;
+  width: 62px;
 }
 
 .navbar-collapse {
@@ -49,12 +49,8 @@ h3 {
   background-repeat: no-repeat;
   background-position: left;
 }
-.hero-text-box {
-  position: relative;
-  width: 900px;
-}
-h2.hero-text {
-  font-size: 3.9em;
+.hero-text {
+  font-size: 2em;
 }
 
 .name {
