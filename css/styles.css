@@ -27,11 +27,16 @@ h3 {
 
 .nav-bar img {
   height: 50px;
-  width: 62px;
+  width: 50px;
 }
 
 .navbar-collapse {
   text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 /* ~ ~ ~ ~ ~ ~ H E R O  ~ ~ ~ ~ ~ */
@@ -50,7 +55,7 @@ h3 {
   background-position: left;
 }
 .hero-text {
-  font-size: 2em;
+  font-size: 3.5em;
 }
 
 .name {
@@ -217,6 +222,7 @@ h3 {
 
 .skills h3 {
   text-align: center;
+  text-decoration: underline;
 }
 
 .skills img {
