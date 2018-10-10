@@ -40,6 +40,13 @@ h3 {
   color: #162731;
 }
 
+a.nav-item.nav-link:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 0.5s ease;
+}
+
 /* ~ ~ ~ ~ ~ ~ H E R O  ~ ~ ~ ~ ~ */
 
 .hero {
