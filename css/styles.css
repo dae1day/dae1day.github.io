@@ -1,9 +1,9 @@
 body {
   font-family: Raleway, Helvetica, sans-serif;
-  background-image: url("../images/pagoda.jpg");
+  background-image: url("../images/sydney.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: rgba(28, 23, 37, 0.3);
+  background-color: rgba(1, 2, 63, 0.3);
   background-blend-mode: overlay;
   background-size: cover;
   color: white;
@@ -21,6 +21,7 @@ h3 {
 /* ~ ~ ~ ~ ~ ~ N A V  B A R  ~ ~ ~ ~ ~ */
 
 .nav-bar {
+  background-color: rgb(13, 26, 34);
   position: fixed;
   top: 0;
   z-index: 1;
@@ -42,7 +43,11 @@ h3 {
   padding-right: 1rem;
   padding-left: 1rem;
   font-weight: bolder;
-  color: #162731;
+  color: white;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: rgb(33, 77, 104);
 }
 
 a.nav-item.nav-link:hover {
@@ -225,8 +230,7 @@ a.nav-item.nav-link:hover {
 /* ~ ~ ~ ~ ~ ~ S K I L L S  ~ ~ ~ ~ ~ */
 
 .skills {
-  color: #162731;
-  background-color: gray;
+  background-color: rgb(33, 77, 104);
   padding: 50px;
 }
 
@@ -237,12 +241,26 @@ a.nav-item.nav-link:hover {
 .skills h3 {
   text-align: center;
   text-decoration: underline;
+  padding-bottom: 20px;
 }
 
 .skills img {
   height: 100px;
   width: 100px;
   margin: 25px;
+}
+
+.skill-icon {
+  display: inline-grid;
+}
+
+.skill-icon span {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.skill-icon:hover span {
+  opacity: 1;
 }
 
 .skills img:hover {
@@ -362,7 +380,7 @@ form {
 }
 
 .contact {
-  background-color: #162731;
+  background-color: rgb(13, 26, 34);
   height: 100vh;
   display: flex;
   justify-content: center;
