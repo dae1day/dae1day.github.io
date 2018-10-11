@@ -31,6 +31,10 @@ h3 {
   transition: top 0.3s;
 }
 
+.nav-bar span {
+  font-size: 40px;
+}
+
 .nav-bar img {
   height: 50px;
   width: 50px;
