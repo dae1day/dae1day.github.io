@@ -1,6 +1,11 @@
 body {
   font-family: Raleway, Helvetica, sans-serif;
-  background-color: rgba(238, 249, 255, 0.8);
+  background-image: url("../images/pagoda.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(28, 23, 37, 0.3);
+  background-blend-mode: overlay;
+  background-size: cover;
   color: white;
 }
 
@@ -209,12 +214,8 @@ a.nav-item.nav-link:hover {
 /* ~ ~ ~ ~ ~ ~ A B O U T  ~ ~ ~ ~ ~ */
 
 .about {
-  color: #162731;
   margin: 50px 0px;
   padding: 50px;
-  background-color: rgba(128, 87, 211, 0.2);
-  border-radius: 20px;
-  box-shadow: -2px 13px 44px -1px #5ac5e0;
 }
 
 .about h1 {
@@ -224,10 +225,9 @@ a.nav-item.nav-link:hover {
 /* ~ ~ ~ ~ ~ ~ S K I L L S  ~ ~ ~ ~ ~ */
 
 .skills {
-  background-color: rgba(128, 87, 211, 0.2);
+  color: #162731;
+  background-color: gray;
   padding: 50px;
-  border-radius: 20px;
-  box-shadow: -2px 13px 44px -1px #5ac5e0;
 }
 
 .skills h1 {
@@ -256,15 +256,12 @@ a.nav-item.nav-link:hover {
 .projects {
   margin: 100px;
   padding: 50px;
-  background-color: rgba(128, 87, 211, 0.2);
-  border-radius: 20px;
-  box-shadow: -2px 13px 44px -1px #5ac5e0;
 }
 
 .projects-container img {
-  height: 300px;
-  width: 400px;
-  margin: 30px;
+  height: 225px;
+  width: 300px;
+  margin: 15px;
 }
 
 .projects-container {
@@ -275,7 +272,6 @@ a.nav-item.nav-link:hover {
 
 .image {
   box-shadow: -2px 13px 44px -1px #808080;
-  border-radius: 15px;
   opacity: 1;
   display: block;
   width: 100%;
@@ -301,6 +297,7 @@ a.nav-item.nav-link:hover {
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);
   transition: 0.5s ease;
+  z-index: 1;
 }
 
 .image:hover {
@@ -312,8 +309,8 @@ a.nav-item.nav-link:hover {
 }
 
 .text {
-  border-radius: 15px;
-  background-color: #7476ee;
+  border-radius: 7px;
+  background-color: #162731;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
