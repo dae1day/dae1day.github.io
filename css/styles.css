@@ -76,6 +76,11 @@ a.nav-item.nav-link:hover {
   margin-top: 450px;
 }
 
+.btn-outline-light {
+  border: 2px solid;
+  border-radius: 20px;
+}
+
 /*Vertical Sliding*/
 .slidingVertical {
   display: inline;
