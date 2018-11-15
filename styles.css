@@ -1,6 +1,6 @@
 body {
   font-family: Raleway, Helvetica, sans-serif;
-  background-image: url("../images/sydney.jpg");
+  background-image: url("./images/sydney.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: rgba(176, 176, 231, 0.923);
@@ -75,7 +75,7 @@ a.nav-item.nav-link:hover {
 /* ~ ~ ~ ~ ~ ~ H E R O  ~ ~ ~ ~ ~ */
 
 .hero {
-  background-image: url("../images/palace-roof.jpg");
+  background-image: url("./images/palace-roof.jpg");
   background-color: rgba(128, 87, 211, 0.2);
   background-blend-mode: overlay;
   height: 100vh;
