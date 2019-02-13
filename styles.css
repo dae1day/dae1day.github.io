@@ -7,7 +7,7 @@ body {
 h1 {
   font-size: 4.5rem;
   font-weight: bold;
-  margin-bottom: 100px;
+  margin-bottom: 5%;
 }
 
 h3 {
@@ -236,6 +236,7 @@ a.nav-item.nav-link:hover {
 
 .projects-container img {
   border-radius: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.37);
   height: 250px;
   width: 350px;
   margin: 15px;
@@ -346,9 +347,15 @@ a.nav-item.nav-link:hover {
 /* ~ ~ ~ ~ ~ ~ A B O U T  ~ ~ ~ ~ ~ */
 
 .about {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  height: 100%;
   color: #162731;
+  border-radius: 12px;
   margin: 50px 0px;
-  padding: 50px;
+  padding: 50px 150px 50px 150px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
+    0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
 }
 
 .about h1 {
