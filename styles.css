@@ -1,6 +1,5 @@
 body {
   font-family: Raleway, Helvetica, sans-serif;
-  /* background-image: url("./images/sydney.jpg"); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: rgba(246, 246, 250, 0.923);
@@ -10,6 +9,7 @@ body {
 }
 
 h1 {
+  font-size: 4.5rem;
   font-weight: bold;
   margin-bottom: 100px;
 }
@@ -239,8 +239,9 @@ a.nav-item.nav-link:hover {
 }
 
 .projects-container img {
-  height: 225px;
-  width: 300px;
+  border-radius: 120px;
+  height: 250px;
+  width: 350px;
   margin: 15px;
 }
 
@@ -289,7 +290,7 @@ a.nav-item.nav-link:hover {
 }
 
 .text {
-  border-radius: 7px;
+  border-radius: 50px;
   background-color: #162731;
   color: white;
   font-size: 16px;
