@@ -1,9 +1,9 @@
 body {
   font-family: Raleway, Helvetica, sans-serif;
-  background-image: url("./images/sydney.jpg");
+  /* background-image: url("./images/sydney.jpg"); */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: rgba(176, 176, 231, 0.923);
+  background-color: rgba(246, 246, 250, 0.923);
   background-blend-mode: overlay;
   background-size: cover;
   color: white;
@@ -231,60 +231,6 @@ a.nav-item.nav-link:hover {
   }
 }
 
-/* ~ ~ ~ ~ ~ ~ A B O U T  ~ ~ ~ ~ ~ */
-
-.about {
-  color: #162731;
-  margin: 50px 0px;
-  padding: 50px;
-}
-
-.about h1 {
-  text-align: center;
-}
-
-/* ~ ~ ~ ~ ~ ~ S K I L L S  ~ ~ ~ ~ ~ */
-
-.skills {
-  background-color: rgb(33, 77, 104);
-  padding: 50px;
-}
-
-.skills h1 {
-  text-align: center;
-}
-
-.skills h3 {
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.skills img {
-  height: 100px;
-  width: 100px;
-  margin: 25px;
-}
-
-.skill-icon {
-  display: inline-grid;
-}
-
-.skill-icon span {
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-.skill-icon:hover span {
-  opacity: 1;
-}
-
-.skills img:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
-  transition: 0.5s ease;
-}
-
 /* ~ ~ ~ ~ ~ ~ P R O J E C T S  ~ ~ ~ ~ ~ */
 .projects {
   color: #162731;
@@ -356,6 +302,60 @@ a.nav-item.nav-link:hover {
 
 #download-button {
   padding: 50px 0px;
+}
+
+/* ~ ~ ~ ~ ~ ~ S K I L L S  ~ ~ ~ ~ ~ */
+
+.skills {
+  background-color: rgb(33, 77, 104);
+  padding: 50px;
+}
+
+.skills h1 {
+  text-align: center;
+}
+
+.skills h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.skills img {
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+}
+
+.skill-icon {
+  display: inline-grid;
+}
+
+.skill-icon span {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.skill-icon:hover span {
+  opacity: 1;
+}
+
+.skills img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  transition: 0.5s ease;
+}
+
+/* ~ ~ ~ ~ ~ ~ A B O U T  ~ ~ ~ ~ ~ */
+
+.about {
+  color: #162731;
+  margin: 50px 0px;
+  padding: 50px;
+}
+
+.about h1 {
+  text-align: center;
 }
 
 /* ~ ~ ~ ~ ~ ~ C O N T A C T S  ~ ~ ~ ~ ~ */
