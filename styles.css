@@ -372,6 +372,10 @@ form {
   height: 10em;
 }
 
+.mobile {
+  color: white;
+}
+
 .contact-container {
   display: flex;
   flex-wrap: wrap;
